@@ -1,6 +1,33 @@
+= Git Subversion Tag
+
+* http://github.com/hone/git_subversion_tag
+
+== DESCRIPTION:
+
 A tool I built to help maintain subversion tags based off of release branches
 
-Usage:
+== REQUIREMENTS:
+
+* git/git-svn > 1.6.x
+needed for the git-svn branch/tag commands
+
+== USAGE:
+
   ruby subversion_tag.rb <tag> <branch_name>
 
 you must have the release branch already checked out and the tag must not already exist on SVN
+
+== CREDIT:
+
+Copyright (C) 2009 Terence Lee <hone02@gmail.com>
+
+== LICENSE:
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
