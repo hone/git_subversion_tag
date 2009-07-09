@@ -1,0 +1,6 @@
+A tool I built to help maintain subversion tags based off of release branches
+
+Usage:
+  ruby subversion_tag.rb <tag> <branch_name>
+
+you must have the release branch already checked out and the tag must not already exist on SVN
