@@ -16,7 +16,8 @@
   You should have received a copy of the GNU General Public License
   along with this program.  If not, see <http://www.gnu.org/licenses/>.
 =end
-require 'discard_head_merge_strategy'
+require 'pathname'
+require "#{Pathname.new(__FILE__).dirname}/discard_head_merge_strategy"
 
 class SubversionTag
   class << self
